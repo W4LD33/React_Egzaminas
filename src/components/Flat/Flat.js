@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import './flat.css';
+// require('dotenv').config();
 
 const Flat = (props) => {
   const fetchData = async () => {
-    const API_KEY = 'AIzaSyDeq640tNXoTCXcBBSZSCsW35A9QVI3obo';
+    const API_KEY = process.env.GOOGLE_API || 'AIzaSyDeq640tNXoTCXcBBSZSCsW35A9QVI3obo';
     try {
         const res = await fetch(
           `https://maps.googleapis.com/maps/api/geocode/json?latlng=${props.lat},${props.lon}&key=${API_KEY}`

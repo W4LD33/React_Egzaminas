@@ -1,0 +1,55 @@
+.filter-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    justify-content: space-between;
+    margin-top: 25px;
+  }
+  
+.filter-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.filter-item:visited{
+    color: black;
+}
+
+.filter-item img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.filter-item p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.filter-options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 1px solid black;
+    padding: 5px;
+    height: 40px;
+    border-radius: 10px;
+    gap: 10px;
+    font-size: 9px;
+}
+
+.filter-options > i {
+    display: flex;
+    font-size: 20px;
+}
+
+.filter-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}

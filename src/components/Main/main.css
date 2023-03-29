@@ -1,0 +1,10 @@
+.flat-container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr); /* change each column to take up 1 fraction of available space */
+    grid-row-gap: 10px; /* add gap between columns */
+    grid-column-gap: 10px;
+    width: 100%;
+    margin: 0 auto; /* center container horizontally */
+    margin-top: 20px;
+}

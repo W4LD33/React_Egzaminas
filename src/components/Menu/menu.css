@@ -1,0 +1,14 @@
+.menu {
+    position: fixed;  /* Set the menu to a fixed position */
+    top: 10%;  /* Position the menu at the top of the screen */
+    left: 80%;  /* Position the menu at the left of the screen */
+    background-color: #fff;  /* Set the background color of the menu */
+    z-index: 9999;  /* Set the z-index of the menu to be above all other content on the website */
+    height: 150px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+}

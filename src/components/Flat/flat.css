@@ -1,0 +1,21 @@
+.flat-image {
+    width: 302px; /* set maximum width of image to 100% of container */
+    height: 286px;
+    border-radius: 20px;
+    /* box-sizing: border-box;
+    padding: 5px; */
+    object-fit: cover;
+}
+
+.flat-title{
+    font-size: 15px;
+}
+
+.flat-price{
+    font-size: 13px;
+}
+
+.flat-price span{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
